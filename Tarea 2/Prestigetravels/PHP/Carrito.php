@@ -86,7 +86,7 @@ if($result) {
         // Verificar si es un paquete o una reserva
         if(!is_null($paquete_id)){
             $tipo = "Paquete";
-			array_push($info, $carrito_id);
+	    array_push($info, $carrito_id);
             array_push($info, $tipo);
             array_push($info, $nombre_paquete);
             array_push($info, $precio_paquete);
@@ -96,7 +96,7 @@ if($result) {
             $num += 1;
         }elseif(!is_null($reserva_id)){
             $tipo = "Reserva";
-			array_push($info, $carrito_id);
+	    array_push($info, $carrito_id);
             array_push($info, $tipo);
             array_push($info, $nombre_hotel);
             array_push($info, $precio_hotel);
