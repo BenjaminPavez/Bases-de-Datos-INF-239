@@ -11,7 +11,7 @@ session_start();
 // Verificar si hay un usuario logueado
 if (isset($_SESSION['Nombre1'])) {
 	$pass = true;
-    $idFinal = $_SESSION['user_id'];
+        $idFinal = $_SESSION['user_id'];
 	$CorreoFinal = $_SESSION['Correo1'];
 	$NombreFinal = $_SESSION["Nombre1"];
 	$CumpleanosFinal = $_SESSION["Cumpleanos1"];
